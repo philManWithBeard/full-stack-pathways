@@ -2,7 +2,7 @@ const heroData = [
   {
     key: 1,
     leftImage: true,
-    imagehref: "/../public/pathway.webp",
+    imagehref: "{pathway}",
     alt: "Yellow illustrated pathway",
     h1text: "Pick your Path to becoming a full stack developer",
     ptext:
@@ -13,7 +13,7 @@ const heroData = [
   {
     key: 2,
     leftImage: false,
-    imagehref: "/../public/meetMentor.webp",
+    imagehref: "{meetMentor}",
     alt: "An illustration of two people high fiving and speaking to each other",
     h1text: "Meet the Mentor who will guide you through your journey",
     ptext:
@@ -24,7 +24,7 @@ const heroData = [
   {
     key: 3,
     leftImage: true,
-    imagehref: "/../public/video.webp",
+    imagehref: "{video}",
     alt: "Yellow illustrated pathway",
     h1text: "Watch the videos and understand the concepts",
     ptext:
@@ -35,7 +35,7 @@ const heroData = [
   {
     key: 4,
     leftImage: false,
-    imagehref: "/../public/coursework.webp",
+    imagehref: "{coursework}",
     alt: "A construction worker putting together a website",
     h1text: "Complete the coursework, get graded and build your portfolio",
     ptext:
@@ -46,7 +46,7 @@ const heroData = [
   {
     key: 5,
     leftImage: true,
-    imagehref: "/../public/interview.webp",
+    imagehref: "{interview}",
     alt: "Yellow illustrated pathway",
     h1text:
       "Illustration of someone being interviewed by a person who is taking notes",

@@ -3,6 +3,10 @@ import React from "react";
 import styles from "./alternateHero.module.css";
 import Image from "next/image";
 import picture from "../../public/pathway.webp";
+import meetMentor from "/../public/meetMentor.webp";
+import video from "/../public/video.webp";
+import coursework from "/../public/coursework.webp";
+import interview from "/../public/interview.webp";
 
 interface AlternateHeroProps {
   key: number;
