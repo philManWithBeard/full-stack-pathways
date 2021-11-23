@@ -3,24 +3,27 @@ import Image from "next/dist/client/image";
 import styles from "./courses.module.css";
 import { NextPage } from "next";
 
-interface CourseCardProps {
+interface coursesProps {
   key: number;
-  course: string;
-  h1text: string;
-  ptext: string;
-  imagehref: string;
-  alt: string;
-  width: string;
-  height: string;
+  course?: string;
+  name?: string;
+  imagehref?: string;
+  alt?: string;
+  width?: string;
+  height?: string;
+  description?: string;
+  price?: number;
+  priceWithInterview?: number;
+  priceWithInterviewAndMentor?: number;
+  salePrice?: number;
+  rating?: number;
+  ratingCount?: number;
 }
 
-export const CourseCard: NextPage<CourseCardProps> = (props: {
-  course: any;
-}) => {
-  const { course } = props;
+export const CourseCard: NextPage<coursesProps> = (props) => {
   const {
     name,
-    imageUrl,
+    imagehref,
     price,
     priceWithInterview,
     priceWithInterviewAndMentor,
@@ -28,11 +31,11 @@ export const CourseCard: NextPage<CourseCardProps> = (props: {
     rating,
     ratingCount,
     description,
-  } = course;
+  } = props;
   return (
     <div className={styles.courseCard}>
       <Image
-        src={imageUrl}
+        src={imagehref!}
         alt={name}
         draggable="false"
         width="200px"
