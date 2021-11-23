@@ -1,0 +1,42 @@
+.coursesFlex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+  padding: 50px;
+}
+
+.courseCard {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-content: flex-start;
+}
+
+.courseCardH3 {
+  color: #222;
+  font-size: 30px;
+  font-family: "Goudy Bookletter 1911", serif;
+  margin: 0px;
+  padding-bottom: 30px;
+}
+
+a.courseCardA {
+  font-size: 18px;
+  font-family: "Mulish", sans-serif;
+  line-height: 1.4;
+}
+
+.heroDiv {
+  max-width: 500px;
+  padding: 0px 50px;
+}
+
+.heroFlex {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

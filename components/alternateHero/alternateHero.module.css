@@ -1,0 +1,26 @@
+h1.heroH1 {
+  color: #222;
+  font-size: 50px;
+  font-family: "Goudy Bookletter 1911", serif;
+  margin: 0px;
+  padding-bottom: 30px;
+}
+
+a.heroA {
+  font-size: 25px;
+  font-family: "Mulish", sans-serif;
+  line-height: 1.4;
+}
+
+.heroDiv {
+  max-width: 500px;
+  padding: 0px 50px;
+}
+
+.heroFlex {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
